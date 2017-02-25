@@ -29,6 +29,7 @@ def get_category_winner(category_url):
 
 
 if __name__ == '__main__':
+    print 'Site scraping is on going, it will take several minutes, please wait...'
     food_n_drink = ("http://www.chicagoreader.com/chicago/"
                     "best-of-chicago-2011-food-drink/BestOf?oid=4106228")
 
@@ -47,3 +48,4 @@ if __name__ == '__main__':
     target.write("\n\n%s" % output)
     target.close()
     # print data
+    print 'Scraping completed, check the data file.'
